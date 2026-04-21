@@ -28,15 +28,13 @@ AWS_REGION = "ap-south-1"
 # STEP 1: Create an SNS Topic in the AWS Console (ap-south-1)
 # STEP 2: Subscribe the host's email to the topic
 # STEP 3: Paste the Topic ARN below
-SNS_TOPIC_ARN = "arn:aws:sns:ap-south-1:YOUR_ACCOUNT_ID:GateKeeperNotifications"
+SNS_TOPIC_ARN = "arn:aws:sns:ap-south-1:350515822764:GateKeeperNotifications"
 
 # Static mapping of host names → email addresses
 # In production, store this in DynamoDB or a config file
 HOST_CONTACTS = {
-    "Alice Johnson":  "alice@example.com",
-    "Bob Smith":      "bob@example.com",
-    "Carol Williams": "carol@example.com",
-    "David Brown":    "david@example.com",
+    "Nithin Kata":  "nithinkata2903@gmail.com",
+    "Sai Vignesh":  "tv110598584@gmail.com",
 }
 
 # ── AWS Clients (uses IAM Role on EC2, no hardcoded credentials) ───────────────
